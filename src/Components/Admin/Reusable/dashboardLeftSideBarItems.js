@@ -14,7 +14,7 @@ const items = [
     {
         title: "Statics",
         icon: <icons.FaRegChartBar />,
-        path: "/Statics",
+        path: "/admin/Statics",
         cName: "nav-item-text"
     },
     {

@@ -1,56 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+:root {
+   --backgroundcolor: #1C1E2F;
+   --panelcolor:#222437;
+   --purple:#765ABE;
+  }
+
 *{
     
     font-family: 'Montserrat';
     padding: 0;
     margin: 0;
+   
 
+}
+body
+{
+    background: var(--backgroundcolor);
+    color:white;
+}
+.sections
+{
+    background: var(--panelcolor);
 }
 
 .left-menu{
-    width: 250px;
+   
     height: 100%;
-    background: #519BD0;
+    background: var(--panelcolor);
     position: fixed;
-    padding-top: 35px;
-    text-align: center;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    padding-top: 15px;
+    text-align:center;
+    width:80px;
+    margin-top:-20px;
+    margin-left:-20px;
+}
 
-}
-.dash-title{
-    margin-bottom: 50px;
-    color: #fff;
-}
 .menu-items{
     padding:0;
-    margin:0;
     text-align: left;
-    margin-left: 15px;
-    margin-right: 15px;
+    display: inline-block;
 }
 ul
 {
     list-style: none;
     text-decoration: none;
+    padding: 0;
 }
-
+.list-dis
+{
+    font-size:100px;
+}
 .dash-items{
-    padding: 20px;
+    padding: 30px;
     color: #fff;
 }
 .dash-items:hover{
-    background: #498cbb;
-}
-.icon
-{
-    margin-right: 10px;
+    background: var(--purple);
+
 }
 
+.logo{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+ margin-left:20px;
+}
 /* Header Panel */ 
+.header{
+    width:100%;
+    background:var(--panelcolor);
+    margin-bottom:20px;
+    padding:10px;
+}
+nav{
+    display:inline-block;
+}
+.input-box{
+    margin-left:400px;
+    height:28px;
+    width:400px;
+    font-size:15px;
+    padding:10px;
+    background:#2A2C44;
+    border:1px solid #4F5280;
+    color:white;
+}
+.s-button{
+    height:28px;
+    margin-left:10px;
+    font-size:11px;
+}
+.h-text{
+    margin-left:32px;
+    font-size:14px;
+}
 
-.top-bar{
-    margin-left: 270px;
-    padding: 20px;
+.right-margin{
+    margin-right:-20px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+    margin: 0;
+    margin-right: -30px;
 }
