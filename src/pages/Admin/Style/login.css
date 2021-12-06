@@ -1,3 +1,5 @@
+/*===== GOOGLE FONTS =====*/
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 /*===== VARIABLES CSS =====*/
 
@@ -48,7 +50,6 @@ img {
   position: relative;
   height: 100vh;
   overflow: hidden;
-  background: #565b92;
 }
 
 /*=== Shapes ===*/
@@ -136,7 +137,7 @@ img {
   left: 0.75rem;
   top: 0.25rem;
   font-size: var(--normal-font-size);
-  color: #fff;
+  color: var(--text-color);
   transition: 0.3s;
 }
 
@@ -154,7 +155,7 @@ img {
   background: none;
   padding: 0.5rem 0.75rem;
   font-size: 1.2rem;
-  color: #fff;
+  color: var(--first-color);
   transition: 0.3s;
 }
 .form__forgot {
